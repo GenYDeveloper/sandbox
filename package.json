@@ -2,9 +2,11 @@
   "name": "sandbox",
   "version": "0.0.1",
   "description": "Angular2 Sandbox",
-  "main": "none",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:serve": "./node_modules/.bin/webpack-dev-server --port 3000 --inline --hot --content-base dist/",
+    "build": "./node_modules/.bin/webpack --module-bind ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,26 @@
   "bugs": {
     "url": "https://github.com/Healforgreen/sandbox/issues"
   },
-  "homepage": "https://github.com/Healforgreen/sandbox#readme"
+  "homepage": "https://github.com/Healforgreen/sandbox#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.12",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "^0.6.6"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "ts-loader": "^0.8.1",
+    "tslint": "^3.6.0",
+    "tslint-loader": "^2.1.3",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
