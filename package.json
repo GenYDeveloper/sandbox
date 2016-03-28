@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "0.0.1",
+  "description": "Angular2 Sandbox",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Healforgreen/sandbox.git"
+  },
+  "keywords": [
+    "Angular2",
+    "TypeScript",
+    "Karma",
+    "Jasmine",
+    "Webpack"
+  ],
+  "author": "Healforgreen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Healforgreen/sandbox/issues"
+  },
+  "homepage": "https://github.com/Healforgreen/sandbox#readme"
+}
